@@ -104,7 +104,7 @@ return {
           cond = "textDocument/references",
         },
         ["<leader>lr"] = {
-          "<CMD>lspsaga lsp_rename ++project<CR>",
+          "<CMD>Lspsaga lsp_rename ++project<CR>",
           desc = "rename current symbol within project"
         },
       },

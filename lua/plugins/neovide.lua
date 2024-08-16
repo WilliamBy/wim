@@ -7,7 +7,7 @@ return {
     options = {
       opt = { -- configure vim.opt options
         -- configure font
-        guifont = "Maple Mono SC NF,Noto_Color_Emoji:h14",
+        guifont = "Maple Mono SC NF:h14",
         -- line spacing
         linespace = 0,
       },
