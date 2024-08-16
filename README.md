@@ -1,6 +1,4 @@
-# AstroNvim
-
-**NOTE:** This is for AstroNvim v4+
+# Wim - Neovim config for various scenes
 
 ## Configuration Structure
 
@@ -39,4 +37,24 @@ The directory structure is like below:
 
 ## Loading Sequance
 
+The diagram below demonstrate **lua-script loading procedure**
+
 ![](https://picgo-1301429536.cos.ap-nanjing.myqcloud.com/img/20240606154839.png)
+
+## Switch Distro
+
+Different branch stand for different distro which can be used in various scenes.
+
+Every Distro derive from `mini` branch which contains minimal tools.
+
+The `core` branch add some general feature to rich the functionality.
+
+Any other **language-specific** or **framework-specific** settings can be find in branchs which inherit `core`, e.g. `cim` for c/c++ dev.
+
+``` shell
+               |- cim # c/c++
+               |
+mini --> core -|- jim # java
+               |
+               |- pim # python
+```
