@@ -7,6 +7,7 @@ return {
   { "AstroNvim/astrocommunity", dev = false },
   -- Language Specific
   { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.cpp" },
   -- Fuzzy Finder
   { import = "astrocommunity.fuzzy-finder.telescope-zoxide" },
   -- Edit & Motion
