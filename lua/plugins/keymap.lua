@@ -46,7 +46,6 @@ return {
         ["<C-S-l>"] = { "<C-w>L", desc = "Move right window" },
         ["<C-S-j>"] = { "<C-w>J", desc = "Move down window" },
         ["<C-S-k>"] = { "<C-w>K", desc = "Move up window" },
-        ["<Leader>wq"] = { "<C-w>q", desc = "Quit window" },
 
         -- Toggle
         ["<Leader>n"] = { "", desc = "Toggle" },
