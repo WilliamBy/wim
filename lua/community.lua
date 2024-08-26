@@ -7,6 +7,17 @@ return {
   { "AstroNvim/astrocommunity", dev = false },
   -- Language Specific
   { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.java" },
+  { import = "astrocommunity.pack.cpp" },
+  { import = "astrocommunity.pack.go" },
+  { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.xml" },
+  { import = "astrocommunity.pack.bash" },
+  { import = "astrocommunity.pack.html-css" },
+  { import = "astrocommunity.pack.json" },
+  { import = "astrocommunity.pack.toml" },
+  { import = "astrocommunity.pack.sql" },
+  { import = "astrocommunity.pack.markdown" },
   -- Fuzzy Finder
   { import = "astrocommunity.fuzzy-finder.telescope-zoxide" },
   -- Edit & Motion
