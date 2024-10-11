@@ -4,7 +4,7 @@
 
 ---@type LazySpec
 return {
-	{ "AstroNvim/astrocommunity", dev = false },
+	{ "AstroNvim/astrocommunity" },
 	-- Language Specific
 	{ import = "astrocommunity.pack.lua" },
 	{ import = "astrocommunity.pack.cpp" },
@@ -47,4 +47,6 @@ return {
 	{ import = "astrocommunity.recipes.neovide" },
 	{ import = "astrocommunity.recipes.vscode" },
 	{ import = "astrocommunity.media.vim-wakatime" },
+	-- Remote
+	{ import = "astrocommunity.remote-development.remote-sshfs-nvim" },
 }
